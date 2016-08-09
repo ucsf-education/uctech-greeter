@@ -1,0 +1,25 @@
+{
+  "name": "uctech-greeter",
+  "version": "0.0.0",
+  "description": "A bot that welcomes new users to the UCTech team on Slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "application",
+    "bot",
+    "slack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stopfstedt/uctech-greeter"
+  },
+  "author": "Stefan Topfstedt",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "foreman": "1.4.1",
+    "slackbots": "0.5.2"
+  }
+}
