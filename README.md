@@ -19,3 +19,7 @@ Finally, run this application whilst passing the API token to it.
 # Replace xxx-xxx-xxxxx with the bot's API token.
 SLACK_API_TOKEN=xxx-xxx-xxxxx node index.js
 ```
+
+## Deployment 
+
+[How to deploy your Slack Bot to Heroku.](https://blog.heroku.com/how-to-deploy-your-slack-bots-to-heroku)
