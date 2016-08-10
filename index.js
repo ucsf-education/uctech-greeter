@@ -17,7 +17,7 @@ rtm.on(RTM_EVENTS.TEAM_JOIN, function(message) {
   console.log('User ' + user.name + ' joined the team.');
   web.im.open(user.id, function(err, res) {
     if (err) {
-      console.error('An error occurred while opeing a direct message channel to user ' + user.name + '. Error: ' + err);
+      console.error('An error occurred while opening a direct message channel to user ' + user.name + '. Error: ' + err);
       return;
     }
     if (res.ok) {
