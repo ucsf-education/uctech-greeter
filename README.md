@@ -17,5 +17,5 @@ Finally, run this application whilst passing the API token to it.
 
 ```bash
 # Replace xxx-xxx-xxxxx with the bot's API token.
-SLACK_TOKEN=xxx-xxx-xxxxx node index.js
+SLACK_API_TOKEN=xxx-xxx-xxxxx node index.js
 ```

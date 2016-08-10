@@ -1,23 +1,27 @@
-var SlackBot = require('slackbots');
 var fs = require('fs');
 var express = require('express')();
 var http = require('http').Server(express);
+var RtmClient = require('@slack/client').RtmClient;
+var WebClient = require('@slack/client').WebClient;
+var RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 
-var bot = new SlackBot({
-  token: process.env.SLACK_TOKEN || '',
-  name: process.env.BOT_NAME || 'greeterbot'
-});
+var token = process.env.SLACK_API_TOKEN || '';
+var welcome = fs.readFileSync('welcome.txt', 'utf8');
+var rtm = new RtmClient(token);
+var web = new WebClient(token);
 
-bot.on('message', function(data) {
-  var self = this;
-  // @link https://api.slack.com/events/team_join
-  if ('team_join' === data.type) {
-    setTimeout(function() {
-      var message = fs.readFileSync('welcome.txt', 'utf8');
-      self.postMessageToUser(data.user.name, message, { as_user: true });
-    }, 45000);
-    console.log("'" + data.user.name + "' has joined the team.");
-  }
+rtm.start();
+
+rtm.on(RTM_EVENTS.TEAM_JOIN, function(message) {
+  var user = message.user;
+  console.log('User ' + user.name + ' joined the team.');
+  web.im.open(user.id, function(err, res) {
+    if (res.ok) {
+      rtm.sendMessage(welcome, res.channel.id);
+    } else {
+      console.warn('Failed to open a direct message channel to user ' + user.name + '. Error message: ' + res.error);
+    }
+  });
 });
 
 // serve up something so Heroku won't crash
