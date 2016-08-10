@@ -1,8 +1,26 @@
 Welcome to UCTech!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at odio eros. Nam accumsan dignissim diam, vel lacinia justo. Cras orci mi, ornare nec elementum nec, vehicula ac velit. Aenean porta suscipit fermentum. Nam tincidunt sem vitae nunc consequat, id tincidunt felis tincidunt. Nunc at eros id dui varius bibendum. Suspendisse porttitor id orci a facilisis.
+This is a community of technical professionals supporting the mission of the University of California.
 
-Donec vitae ex ante. Aliquam convallis dapibus consectetur. Nam id condimentum mi. Nam eleifend dictum urna, eget blandit ex euismod vitae. Mauris mollis, mauris eu lobortis consectetur, est ex bibendum leo, quis pellentesque libero odio quis nunc. Curabitur placerat rhoncus ex, sed sodales tortor rutrum in. Curabitur dignissim vitae mi nec fringilla. Ut sed turpis malesuada, malesuada nunc vitae, dignissim leo. Proin consequat nunc eget consequat viverra. Quisque ipsum ante, tempus quis sodales ac, posuere at tortor. Nulla sed dictum quam, sed dapibus magna. Nullam est massa, scelerisque id nunc et, euismod dictum sem. Aliquam rutrum enim vitae consectetur tincidunt. Mauris tempor odio ante, sit amet condimentum ex scelerisque id. Ut vel ante quis erat condimentum maximus fermentum vel augue. Suspendisse eu enim sit amet enim semper dictum.
+Please be considerate and respectful in your communications here. Be mindful about the information you are sharing and refrain from posting any information that might be considered confidential or protected. See http://security.ucop.edu/ for more information
 
-Cras a nunc eu enim tincidunt vestibulum sed in dui. Ut rhoncus a augue eu fermentum. Proin in semper leo, eget elementum erat. Maecenas sit amet dolor lectus. Etiam ac nibh vitae nibh aliquam dignissim at quis enim. Maecenas bibendum nisi blandit, feugiat massa vel, mollis augue. Morbi hendrerit mauris cursus sapien dignissim mollis. Nullam congue aliquet placerat. Nullam nec ipsum in enim elementum aliquam. Cras eu suscipit mi. In a odio vel lacus cursus aliquam. Mauris tincidunt libero in interdum dictum. Etiam efficitur risus non lorem bibendum, at tempus turpis condimentum. Mauris rutrum viverra placerat. Ut posuere ex sed libero volutpat ultricies. Cras tortor erat, sagittis et urna a, egestas tempor tellus.
+If you need help using UCTech, please visit https://docs.google.com/document/d/11Cdtv7S8qzOczJMMuR6dbgtaQ0kd4KpMS_bIp8XDYTQ/edit?usp=sharing
 
+Code of Conduct from The Code Manifesto (http://codemanifesto.com/)
+
+Discrimination limits us. This includes discrimination on the basis of race, gender, sexual orientation, gender identity, age, nationality, technology and any other arbitrary exclusion of a group of people.
+
+Boundaries honor us. Your comfort levels are not everyone’s comfort levels. Remember that, and if brought to your attention, heed it.
+We are our biggest assets. None of us were born masters of our trade. Each of us has been helped along the way. Return that favor, when and where you can.
+
+We are resources for the future. As an extension of #3, share what you know. Make yourself a resource to help those that come after you.
+
+Respect defines us. Treat others as you wish to be treated. Make your discussions, criticisms and debates from a position of respectfulness. Ask yourself, is it true? Is it necessary? Is it constructive? Anything less is unacceptable.
+
+Reactions require grace. Angry responses are valid, but abusive language and vindictive actions are toxic. When something happens that offends you, handle it assertively, but be respectful. Escalate reasonably, and try to allow the offender an opportunity to explain themselves, and possibly correct the issue.
+
+Opinions are just that: opinions. Each and every one of us, due to our background and upbringing, have varying opinions. That is perfectly acceptable. Remember this: if you respect your own opinions, you should respect the opinions of others.
+
+To err is human. You might not intend it, but mistakes do happen and contribute to build experience. Tolerate honest mistakes, and don't hesitate to apologize if you make one yourself.
+
+Welcome to the community and contribute!
