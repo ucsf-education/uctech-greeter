@@ -4,6 +4,7 @@
   "description": "A bot that welcomes new users to the UCTech team on Slack.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,9 +19,11 @@
   "author": "Stefan Topfstedt",
   "license": "MIT",
   "dependencies": {
-    "@slack/client": "3.5.4",
-    "body-parser": "1.15.2",
-    "express": "4.14.0",
-    "foreman": "1.4.1"
+    "app-root-path": "^2.0.1",
+    "botkit": "^0.5.6",
+    "dotenv": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.0"
   }
 }

@@ -1,25 +1,20 @@
-A bot that welcomes new users to the UCTech team on Slack.
+A bot that hangs out in the UC Tech Slack team and helps with common tasks
 
-## Installation
+## Running Locally:
 
-Clone this project. 
-
-Then, [create a bot user integration](https://my.slack.com/services/new/bot).
-Take note of the generated API token.
-
-Now, install all dependencies.
-
+1. Install node and npm
+2. `git clone uctechbot`
+3. `npm install`
+4. add a `.env` file with:
 ```bash
-npm install
+SLACK_API_TOKEN="TOKEN"
 ```
+5. Run uctechbot with `npm start`
+5. test uctechbot with `npm test`
 
-Finally, run this application whilst passing the API token to it.
 
-```bash
-# Replace xxx-xxx-xxxxx with the bot's API token.
-SLACK_API_TOKEN=xxx-xxx-xxxxx node index.js
-```
-
-## Deployment 
-
-[How to deploy your Slack Bot to Heroku.](https://blog.heroku.com/how-to-deploy-your-slack-bots-to-heroku)
+## Deploying to heroku
+1. Install the heroku CLI (`brew install heroku`)
+2. `heroku create`
+3. `git push heroku master`
+4. `heroku config:set SLACK_API_TOKEN="TOKEN"`
