@@ -2,11 +2,11 @@ Welcome to UCTech!
 
 This is a community of technical professionals supporting the mission of the University of California.
 
-Please be considerate and respectful in your communications here. Be mindful about the information you are sharing and refrain from posting any information that might be considered confidential or protected. See http://security.ucop.edu/ for more information
+Please be considerate and respectful in your communications here. Be mindful about the information you are sharing and refrain from posting any information that might be considered confidential or protected. See http://security.ucop.edu/ for more information.
 
 If you need help using UCTech, please visit https://goo.gl/Ffdgrw
 
-We have adopted the Code of Conduct from The Code Manifesto (http://codemanifesto.com/). If you experience anyone not follwing
-this code or any behavior that makes you uncomforable please say something or mentions @admins for help.
+We have adopted the Code of Conduct from The Code Manifesto (http://codemanifesto.com/). If you experience anyone not following
+this code or any behavior that makes you uncomfortable please say something or mentions @admins for help.
 
 Welcome to the community!
