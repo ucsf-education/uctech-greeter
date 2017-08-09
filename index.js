@@ -16,5 +16,5 @@ bot.on('team_join', welcome);
 bot.hears(['uptime', 'identify yourself', 'who are you', 'what is your name'], mention, uptime);
 bot.hears(['welcome', 'welcome me', 'help'], mention, welcomeme);
 bot.hears('', mention, (bot, message) => {
-  bot.reply(message, 'I only understand a few things.  You can say "welcome" or "uptime"');
+  bot.reply(message, 'I only understand a few things.  You can say "welcome" or "uptime".');
 });
