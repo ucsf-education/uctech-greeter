@@ -9,4 +9,6 @@ If you need help using UCTech, please visit https://goo.gl/Ffdgrw
 We have adopted the Code of Conduct from The Code Manifesto (http://codemanifesto.com/). If you experience anyone not following
 this code or any behavior that makes you uncomfortable please say something or mentions @admins for help.
 
+Lastly, please suffix your username with your campus affiliation, e.g. "Jane Doe (UCSF)". 
+
 Welcome to the community!
