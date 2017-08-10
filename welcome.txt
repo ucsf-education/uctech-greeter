@@ -7,7 +7,7 @@ Please be considerate and respectful in your communications here. Be mindful abo
 If you need help using UCTech, please visit https://goo.gl/Ffdgrw
 
 We have adopted the Code of Conduct from The Code Manifesto (http://codemanifesto.com/). If you experience anyone not following
-this code or any behavior that makes you uncomfortable please say something or mentions @admins for help.
+this code or any behavior that makes you uncomfortable please say something or mention @admins for help.
 
 Lastly, please suffix your name and username in your profile at https://uctech.slack.com/account/profile with your campus affiliation, e.g. "Jane Doe (UCSF)" & "@jdoe_ucsf".
 
