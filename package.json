@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "eslint ."
+    "test": "eslint . && node test.js"
   },
   "keywords": [
     "application",
