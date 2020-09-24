@@ -9,12 +9,22 @@ const welcomeText =  require('fs').readFileSync(require('path').join(__dirname, 
   // Bot throws if there is no API token.
   assert.throws(
     () => { delete process.env.SLACK_API_TOKEN; require('./lib/bot.js'); },
-    { message: 'Error: Specify SLACK_TOKEN in environment' }
+    { message: 'Specify SLACK_TOKEN in environment' }
+  );
+}
+
+{
+  // Bot throws if there is no signing secret.
+  process.env.SLACK_API_TOKEN = 'fhqwhgads';
+  assert.throws(
+    () => { delete process.env.SLACK_SIGNING_SECRET; require('./lib/bot.js'); },
+    { message: 'Specify SLACK_SIGNING_SECRET in environment' }
   );
 }
 
 // Monkey-patch bot.reply to make a test double for remaining tests.
-process.env.SLACK_API_TOKEN='fhqwhgads';
+process.env.SLACK_API_TOKEN = 'fhqwhgads';
+process.env.SLACK_SIGNING_SECRET = 'fhqwhgadshgnsdhjsdbhksdabkfabkveybvf';
 const bot = require('./lib/bot.js');
 
 // Counter for test completion.

@@ -9,6 +9,7 @@ A bot that hangs out in the UC Tech Slack team and helps with common tasks
 5. add a `.env` file with:
 ```bash
 SLACK_API_TOKEN="TOKEN"
+SLACK_SIGNING_SECRET="SIGNING_SECRET"
 ```
 6. Run uctechbot with `npm start`
 7. test uctechbot with `npm test`
@@ -19,3 +20,4 @@ SLACK_API_TOKEN="TOKEN"
 2. `heroku create`
 3. `git push heroku master`
 4. `heroku config:set SLACK_API_TOKEN="TOKEN"`
+5. `heroku config:set SLACK_SIGNING_SECRET="SIGNING_SECRET"`
