@@ -1,23 +1,24 @@
-A bot that hangs out in the UC Tech Slack team and helps with common tasks
+A bot that hangs out in the UC Tech Slack team and welcomes new members as they join the workspace.
 
-## Running Locally:
+## Configuration
 
-1. Install node and npm
-2. `git clone https://github.com/stopfstedt/uctech-greeter.git`
-3. `cd uctech-greeter`
-4. `npm install`
-5. add a `.env` file with:
-```bash
-SLACK_API_TOKEN="TOKEN"
-SLACK_SIGNING_SECRET="SIGNING_SECRET"
-```
-6. Run uctechbot with `npm start`
-7. test uctechbot with `npm test`
+The bot expects the following environment variables.
+
+| Variable Name | | Notes |
+| --- | --- | --- |
+| `BOT_TOKEN` | required | Your bot token. |
+| `CLIENT_ID` | required | Your app's client id. |
+| `CLIENT_SECRET` | required | Your app's client secret. |
+| `CLIENT_SIGNING_SECRET` | required | Your app's client signing secret. |
+
+Add them to your `.env` file for local development, or as config variables to your hosting environment, e.g. [Heroku](https://devcenter.heroku.com/articles/config-vars).
+
+## Customizing the welcome message
+
+Update `welcome.txt` found in this project.
+
+## Attribution
+
+This bot was created using the [Botkit starter kit for slack](https://github.com/howdyai/botkit/tree/master/packages/generator-botkit#readme).
 
 
-## Deploying to heroku
-1. Install the heroku CLI (`brew install heroku`)
-2. `heroku create`
-3. `git push heroku master`
-4. `heroku config:set SLACK_API_TOKEN="TOKEN"`
-5. `heroku config:set SLACK_SIGNING_SECRET="SIGNING_SECRET"`
