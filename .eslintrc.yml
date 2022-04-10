@@ -5,7 +5,7 @@
   },
   extends: "plugin:mocha/recommended",
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 9,
   },
   "plugins": [
     "mocha"
