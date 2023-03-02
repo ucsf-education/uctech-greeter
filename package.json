@@ -1,15 +1,17 @@
 {
   "name": "uctech-greeter",
   "description": "A bot that welcomes new users to the UCTech team on Slack.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "node": "18.x",
+    "npm": "8.x"
   },
-  "main": "bot.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node bot.js",
-    "test": "eslint . && mocha tests"
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix",
+    "start": "node index.js",
+    "test": "eslint . --cache"
   },
   "keywords": [
     "application",
@@ -18,21 +20,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ucsf-ckm/uctech-greeter"
+    "url": "https://github.com/ucsf-education/uctech-greeter"
   },
-  "author": "Stefan Topfstedt",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ucsf-education/uctech-greeter/issues"
+  },
+  "homepage": "https://github.com/ucsf-education/uctech-greeter#readme",
   "license": "MIT",
   "dependencies": {
-    "app-root-path": "^3.0.0",
-    "botbuilder-adapter-slack": "^1.0.14",
-    "botbuilder-storage-mongodb": "^1.0.8",
-    "botkit": "^4.15.0",
-    "botkit-plugin-cms": "^1.0.3",
+    "@slack/bolt": "^3.12.2",
+    "app-root-path": "^3.1.0",
     "dotenv": "^16.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
-    "eslint-plugin-mocha": "^10.0.3",
-    "mocha": "^9.2.2"
-  }
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.4"
+  },
+  "pre-commit": [
+    "lint"
+  ]
 }
