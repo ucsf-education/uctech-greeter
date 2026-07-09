@@ -33,7 +33,7 @@
     "prettier": "^3.8.3",
     "ts-node": "^10.9.2",
     "tsx": "^4.22.3",
-    "typescript-eslint": "^8.62.0"
+    "typescript-eslint": "^8.62.1"
   },
   "dependencies": {
     "@slack/bolt": "^4.7.3",
