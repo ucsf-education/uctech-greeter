@@ -8,7 +8,7 @@
     "start": "npm run build && node ./dist/app.js",
     "lint": "eslint --ignore-pattern=\"dist\"",
     "format": "prettier . --write",
-    "test": "npm run build && node --import tsx --test"
+    "test": "tsc -p tsconfig.test.json && node --import tsx --test"
   },
   "keywords": [
     "application",
