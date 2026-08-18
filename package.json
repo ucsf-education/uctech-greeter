@@ -39,6 +39,6 @@
     "@slack/bolt": "^5.0.0",
     "@tsconfig/node24": "^24.0.4",
     "dotenv": "^17.4.2",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }
