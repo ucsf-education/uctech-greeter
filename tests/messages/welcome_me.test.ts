@@ -2,8 +2,8 @@ import { strict as assert } from "node:assert";
 import { beforeEach, describe, it, mock } from "node:test";
 import type { AllMiddlewareArgs, SlackEventMiddlewareArgs } from "@slack/bolt";
 
-import welcomeMeCallback from "../../src/listeners/messages/welcome-me";
-import { fakeLogger, fakeSay } from "../helpers";
+import welcomeMeCallback from "../../src/listeners/messages/welcome-me.js";
+import { fakeLogger, fakeSay } from "../helpers.js";
 
 const buildArguments = ({ logger = fakeLogger, say = fakeSay }) => {
   return {
