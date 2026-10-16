@@ -3,8 +3,8 @@ import { beforeEach, describe, it, mock } from "node:test";
 import type { AllMiddlewareArgs, SlackEventMiddlewareArgs } from "@slack/bolt";
 import type { WebClient } from "@slack/web-api";
 
-import teamJoinCallback from "../../src/listeners/events/team-join";
-import { fakeClient, fakeLogger } from "../helpers";
+import teamJoinCallback from "../../src/listeners/events/team-join.js";
+import { fakeClient, fakeLogger } from "../helpers.js";
 
 const fakeEvent = {
   user: {
@@ -42,8 +42,9 @@ describe("events", () => {
 
     assert(spy.mock.callCount() === 1);
 
-    const callArgs = spy.mock.calls[0].arguments[0];
+    const callArgs = spy.mock.calls[0]?.arguments[0];
     assert(callArgs);
+
     assert.ok(callArgs.text.toString().includes("Welcome to UCTech"));
     assert.equal(callArgs.channel, fakeEvent.user.id);
   });
@@ -57,6 +58,6 @@ describe("events", () => {
     await teamJoinCallback(buildArguments({}));
 
     assert(spy.mock.callCount() === 1);
-    assert.deepEqual(fakeLogger.error.mock.calls[0].arguments, [testError]);
+    assert.deepEqual(fakeLogger.error.mock.calls[0]?.arguments, [testError]);
   });
 });
