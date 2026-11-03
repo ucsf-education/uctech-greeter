@@ -38,7 +38,7 @@
   "dependencies": {
     "@slack/bolt": "^5.1.0",
     "@tsconfig/node24": "^24.0.5",
-    "dotenv": "^17.4.2",
+    "dotenv": "^18.0.9",
     "typescript": "^6.0.3"
   }
 }
